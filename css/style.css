@@ -499,6 +499,62 @@ button:focus,
     }
 
 /* ----------------------------------------------
+ * keynote Section
+ *-----------------------------------------------*/
+
+.keynote .thumbnail {
+    padding          : 0;
+    line-height      : 22px;
+    background-color : transparent;
+    border           : 0;
+    margin-bottom	 : 30px;
+    }
+
+@media (max-width : 767px) {
+    .keynote .thumbnail {
+        margin-bottom : 30px;
+        }
+    }
+
+.keynote .thumbnail img {
+    width : 60%;
+	border-radius	 : 50%;
+    }
+
+.keynote .thumbnail .caption {
+    padding          : 10px;
+    }
+
+.keynote .thumbnail h3 {
+    font-size        : 14px;
+    font-weight      : bold;
+    margin           : 0 30px;
+    text-transform   : uppercase;
+    padding          : 10px 0;
+    }
+
+.keynote .thumbnail h3 small {
+    font-size: 12px;
+    color     : #888;
+    display: block;
+    font-weight: normal;
+	padding     : 5px 0;
+    }
+	
+.keynote .thumbnail a {
+    color     : #0e1555;
+    text-decoration    : none;
+    -webkit-transition : all 0.3s ease 0s;
+    -moz-transition    : all 0.3s ease 0s;
+    -o-transition      : all 0.3s ease 0s;
+    transition         : all 0.3s ease 0s;
+    }
+	
+.keynote .thumbnail a:hover {
+    color     : #999999;
+    }
+
+/* ----------------------------------------------
  * Team Section
  *-----------------------------------------------*/
 
